@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  font-family: 'Orelega One', cursive;
+}
+
+.img-width25{
+  width: 200px;
+  height: auto;
+}
+
+.opacity-half{
+  opacity: .2;
+}
+
+.letter-spacing-2px{
+  letter-spacing: 2px;
+}
