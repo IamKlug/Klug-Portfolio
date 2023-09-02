@@ -17,7 +17,8 @@ function App() {
           <div className='img-width25 is-relative m-3 '>
 
           <figure className='image is-3by5'>  
-            <img loading='lazy' className='is-rounded' src='src/assets/tiny-head-shot.png' />
+            <img loading='lazy' className='is-rounded' src='tiny-head-shot.png' />
+            
           </figure>
           </div>
             <p className='subtitle has-text-centered'>I build software</p>
@@ -35,7 +36,7 @@ function App() {
                 <div className='is-relative'>
                     <span className='tag is-link is-medium'>Click the Image to check it out!</span>
                     <figure className='image'>
-                      <a href='https://klug-task-management-git-master-iamklug.vercel.app/'><img loading='lazy' className='' src='src/assets/tiny-kanban-image.png' /></a>
+                      <a href='https://klug-task-management-git-master-iamklug.vercel.app/'><img loading='lazy' className='' src='/tiny-kanban-image.png' /></a>
                     </figure>
                   </div>
                 </div>
@@ -43,9 +44,9 @@ function App() {
               <div className='column has-text-centered'>
                 <div className='box has-background-success'>
                 <div className='is-relative'>
-                <span className='tag is-link is-medium'>This one too! this one's a treat!</span>
+                <span className='tag is-link is-medium'>This one too! This one's a treat!</span>
                     <figure className='image'>
-                      <a href='https://multi-step-form-vercel-iamklug.vercel.app/'><img loading='lazy' className='' src='src/assets/tiny-form-image.png' /></a>
+                      <a href='https://multi-step-form-vercel-iamklug.vercel.app/'><img loading='lazy' className='' src='/tiny-form-image.png' /></a>
                     </figure>
                   </div>
                 </div>
