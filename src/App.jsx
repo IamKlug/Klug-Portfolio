@@ -1,9 +1,4 @@
 import './App.css'
-import headShotImage from "./assets/tiny-head-shot.png"
-import kanbanBoardImage from "./assets/tiny-kanban-image.png"
-import formImage from './assets/tiny-form-image.png'
-
-
 
 function App() {
 
@@ -22,7 +17,7 @@ function App() {
           <div className='img-width25 is-relative m-3 '>
 
           <figure className='image is-3by5'>  
-            <img className='is-rounded' src={headShotImage} />
+            <img className='is-rounded' src='/tiny-head-shot.png' />
 
           </figure>
           </div>
@@ -41,7 +36,7 @@ function App() {
                 <div className='is-relative'>
                     <span className='tag is-link is-medium'>Click the Image to check it out!</span>
                     <figure className='image'>
-                      <a href='https://klug-task-management-git-master-iamklug.vercel.app/'><img className='' src={kanbanBoardImage} /></a>
+                      <a href='https://klug-task-management-git-master-iamklug.vercel.app/'><img className='' src='/tiny-kanban-image.png' /></a>
                     </figure>
                   </div>
                 </div>
@@ -51,7 +46,7 @@ function App() {
                 <div className='is-relative'>
                 <span className='tag is-link is-medium'>This one too! This one's a treat!</span>
                     <figure className='image'>
-                      <a href='https://multi-step-form-vercel-iamklug.vercel.app/'><img className='' src={formImage} /></a>
+                      <a href='https://multi-step-form-vercel-iamklug.vercel.app/'><img className='' src='/tiny-form-image.png' /></a>
                     </figure>
                   </div>
                 </div>
