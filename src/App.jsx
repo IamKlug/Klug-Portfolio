@@ -36,7 +36,7 @@ function App() {
                 <div className='is-relative'>
                     <span className='tag is-link is-medium'>Click the Image to check it out!</span>
                     <figure className='image'>
-                      <a href='https://klug-task-management-git-master-iamklug.vercel.app/'><img src='tiny-kanban.png' /></a>
+                      <a href='https://klug-task-management-git-master-iamklug.vercel.app/' target='_blank' rel='noreferrer'><img src='tiny-kanban.png' /></a>
                     </figure>
                   </div>
                 </div>
@@ -46,7 +46,7 @@ function App() {
                 <div className='is-relative'>
                 <span className='tag is-link is-medium'>This one too! This one's a treat!</span>
                     <figure className='image'>
-                      <a href='https://multi-step-form-vercel-iamklug.vercel.app/'><img src='tiny-payment-form.png' /></a>
+                      <a href='https://multi-step-form-vercel-iamklug.vercel.app/' target='_blank' rel='noreferrer'><img src='tiny-payment-form.png' /></a>
                     </figure>
                   </div>
                 </div>
