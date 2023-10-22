@@ -15,3 +15,97 @@
 .letter-spacing-2px{
   letter-spacing: 2px;
 }
+
+.q-navbar{
+  display: flex;
+  width: 100%;
+  padding: 16px 60px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: var(--radius-sharp, 0px);
+  background: #FFF;
+  box-shadow: 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
+}
+
+
+
+
+/* Bounce animation on hover */
+.bounce:hover {
+  animation: bounce 0.6s ease;
+}
+
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  45% {
+    transform: translateY(0px);
+  }
+  65% {
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(0px);
+  }
+  90% {
+    transform: translateY(-5px);
+  }
+}
+
+.fade-in-effect {
+  animation: fadeInLeftToRight 1.5s forwards;
+}
+
+@keyframes fadeInLeftToRight {
+  0% {
+    transform: translateX(-30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.rotate-90-ccw {
+  transform: rotate(-90deg);
+}
+
+.transformy-70 {
+  transform: translateY(70px);
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+/* Default styles for viewports above 600px */
+.responsive-div::before {
+  content: "Martin Klug-Noble";
+  display: block;
+}
+
+/* Styles for viewports below 600px */
+@media (max-width: 600px) {
+  .responsive-div::before {
+    content: "MK-N";
+  }
+}
+
+/* Default styles for viewports above 600px */
+.responsive-div::before {
+  content: "Martin Klug-Noble";
+  display: block;
+}
+
+/* Styles for viewports below 600px */
+@media (max-width: 600px) {
+  .responsive-div::before {
+    content: "MK-N";
+  }
+}
