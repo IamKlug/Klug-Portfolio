@@ -68,14 +68,14 @@ function App() {
           </div>
         </nav>
 
-        <div className="is-flex-tablet is-justify-content-end is-align-items-center py-6 my-6 fade-in-effect">
-          <div className="p-6 m-6">
-          <h1 className="title is-1 has-text-left m-6">Hi I'm Martin</h1>
-          <p className="subtitle has-text-left mx-6">I build websites</p>
+        <div className="is-flex-tablet is-justify-content-end is-align-items-center py-6 my-6 ml-6 fade-in-effect">
+          <div className="">
+          <h1 className="title is-1 has-text-left">Hi I'm Martin</h1>
+          <p className="subtitle has-text-left">I build websites</p>
           </div>
-          <div className="img-width25 is-relative mx-6 ">
+          <div className="img-width25 is-relative m-6">
             
-            <figure className="image is-3by5 ">
+            <figure className="image is-3by5">
               <img className="" src="tiny-headshot.png" />
             </figure>
           </div>
@@ -118,6 +118,24 @@ function App() {
                         rel="noreferrer"
                       >
                         <img src="tiny-payment-form.png" />
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div className="column has-text-centered">
+                <div className="box has-background-primary">
+                  <div className="is-relative">
+                    <span className="tag is-link is-medium">
+                      Click the Image to check it out!
+                    </span>
+                    <figure className="image">
+                      <a
+                        href="https://audiophile-wheat.vercel.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img src="audiophile.png" />
                       </a>
                     </figure>
                   </div>
