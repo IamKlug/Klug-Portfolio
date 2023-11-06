@@ -68,7 +68,7 @@ function App() {
           </div>
         </nav>
 
-        <div className="is-flex-tablet is-justify-content-end is-align-items-center py-6 my-6 ml-6 fade-in-effect">
+        <div className="hero-container is-flex-tablet is-justify-content-end is-align-items-center py-6 mt-6  fade-in-effect">
           <div className="">
           <h1 className="title is-1 has-text-left">Hi I'm Martin</h1>
           <p className="subtitle has-text-left">I build websites</p>
@@ -106,24 +106,6 @@ function App() {
                 </div>
               </div>
               <div className="column has-text-centered">
-                <div className="box has-background-success">
-                  <div className="is-relative">
-                    <span className="tag is-link is-medium">
-                      This one too! This one's a treat!
-                    </span>
-                    <figure className="image">
-                      <a
-                        href="https://multi-step-form-vercel-iamklug.vercel.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="tiny-payment-form.png" />
-                      </a>
-                    </figure>
-                  </div>
-                </div>
-              </div>
-              <div className="column has-text-centered">
                 <div className="box has-background-primary">
                   <div className="is-relative">
                     <span className="tag is-link is-medium">
@@ -141,6 +123,24 @@ function App() {
                   </div>
                 </div>
               </div>
+              <div className="column has-text-centered">
+                <div className="box has-background-success">
+                  <div className="is-relative">
+                    <span className="tag is-link is-medium">
+                      This one too! This one's a treat!
+                    </span>
+                    <figure className="image">
+                      <a
+                        href="https://multi-step-form-vercel-iamklug.vercel.app/"
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        <img src="tiny-payment-form.png" />
+                      </a>
+                    </figure>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -148,9 +148,9 @@ function App() {
         <hr />
         <div className="title has-text-centered is-underlined">My Skills</div>
 
-        <div className="columns mx-3">
-          <div className="column is-offset-one-fifth is-three-fifths">
-            <div className="columns">
+        <div className="columns is-mobile">
+          <div className="column skill-cards">
+            <div className="columns is-mobile">
               <div className="column has-text-centered">
                 <div className="box box has-background-primary">HTML</div>
               </div>
@@ -163,9 +163,9 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="columns mx-3">
-          <div className="column is-offset-one-fifth is-three-fifths">
-            <div className="columns">
+        <div className="columns is-mobile">
+          <div className="column skill-cards">
+            <div className="columns is-mobile">
               <div className="column has-text-centered">
                 <div className="box has-background-success">React</div>
               </div>
@@ -182,9 +182,9 @@ function App() {
           Skills in development
         </div>
 
-        <div className="columns mx-3">
-          <div className="column is-offset-one-fifth is-three-fifths">
-            <div className="columns">
+        <div className="columns is-mobile">
+          <div className="column skill-cards">
+            <div className="columns is-mobile">
               <div className="column has-text-centered">
                 <div className="box has-background-success">Node</div>
               </div>
