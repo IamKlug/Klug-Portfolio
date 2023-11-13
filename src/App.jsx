@@ -109,7 +109,7 @@ function App() {
                 <div className="box has-background-primary">
                   <div className="is-relative">
                     <span className="tag is-link is-medium">
-                      Click the Image to check it out!
+                    This one too! This one's a treat!
                     </span>
                     <figure className="image">
                       <a
@@ -118,24 +118,6 @@ function App() {
                         rel="noreferrer"
                       >
                         <img src="audiophile.png" />
-                      </a>
-                    </figure>
-                  </div>
-                </div>
-              </div>
-              <div className="column has-text-centered">
-                <div className="box has-background-success">
-                  <div className="is-relative">
-                    <span className="tag is-link is-medium">
-                      This one too! This one's a treat!
-                    </span>
-                    <figure className="image">
-                      <a
-                        href="https://multi-step-form-vercel-iamklug.vercel.app/"
-                        target="_blank"
-                        rel="noreferrer"
-                      >
-                        <img src="tiny-payment-form.png" />
                       </a>
                     </figure>
                   </div>
